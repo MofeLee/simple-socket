@@ -4,7 +4,7 @@ var request = require('request');
 describe('SSocket', function() {
 
   describe('#constructor()', function(){
-    it('should return a object', function(){
+    it('should return an object', function(){
       var sSocket = SSocket();
 
       expect(typeof sSocket).to.be.equal('object');
